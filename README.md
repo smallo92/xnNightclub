@@ -8,3 +8,5 @@ Copy xnNightclub to your resources folder and add `start xnNightclub` to your se
 
 
 ![Inside Club](https://ahatakeon.me/i/ltHTlwH.jpg)
+![Outside Club](https://img.xpl.wtf/s/VOVVcwZ.jpg)
+![Club Entrance](https://ahatakeon.me/i/2QeMaq4.jpg)
