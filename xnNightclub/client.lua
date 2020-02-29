@@ -3,9 +3,9 @@ RequestIpl("ba_barriers_case5")
 RequestIpl("ba_case5_solomun")
 
 local EntitySets = { "Int01_ba_security_upgrade", "Int01_ba_equipment_setup", "Int01_ba_Style02", "Int01_ba_style02_podium", "int01_ba_lights_screen", 
-					"Int01_ba_Screen", "Int01_ba_bar_content", "Int01_ba_dj02", "DJ_01_Lights_01", "DJ_01_Lights_01", "Int01_ba_lightgrid_01", "Int01_ba_equipment_upgrade", 
+					"Int01_ba_Screen", "Int01_ba_bar_content", "Int01_ba_dj02", "DJ_04_Lights_01", "Int01_ba_lightgrid_01", "Int01_ba_equipment_upgrade", 
 					"Int01_ba_clubname_01", "Int01_ba_dry_ice", "Int01_ba_deliverytruck", "Int01_ba_trophy04", "Int01_ba_trophy05", "Int01_ba_trophy07", "Int01_ba_trophy09", 
-					"Int01_ba_trophy08", "Int01_ba_trophy11", "Int01_ba_trophy10", "Int01_ba_trophy03", "Int01_ba_trophy01", "Int01_ba_trophy02", "Int01_ba_trad_lights" }
+					"Int01_ba_trophy08", "Int01_ba_trophy11", "Int01_ba_trophy10", "Int01_ba_trophy03", "Int01_ba_trophy01", "Int01_ba_trophy02", "Int01_ba_trad_lights", "DJ_04_Lights_04" }
 
 local function ButtonMessage(text)
     BeginTextCommandScaleformString("STRING")
@@ -322,14 +322,6 @@ function CreateNamedRenderTargetForModel(name, model)
 		handle = GetNamedRendertargetRenderId(name)
 	end
 	return handle
-end
-
-function GetPedMugshot(ped)
-	local mugshot = RegisterPedheadshot(ped)
-	while not IsPedheadshotReady(mugshot) do
-		Citizen.Wait(0)
-	end
-	return mugshot, GetPedheadshotTxdString(mugshot)
 end
 
 function DrawMyNotification(title, subject, msg, icon, iconType)
