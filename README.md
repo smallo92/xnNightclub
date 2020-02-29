@@ -5,3 +5,6 @@ The Galaxy Nightclub added to Vespucci Beach with clientside NPCs. Weapons canno
 **Installation**
 
 Copy xnNightclub to your resources folder and add `start xnNightclub` to your server.cfg
+
+
+![Inside Club](https://ahatakeon.me/i/ltHTlwH.jpg)
