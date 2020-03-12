@@ -252,7 +252,6 @@ function CreatePeds()
 			if v[6] ~= nil then
 				TaskStartScenarioAtPosition(v[1], v[6], v[7], v[8], -1, false, true)
 			end
-			DecorSetInt(v[1], "propHack", 74)
 			SetModelAsNoLongerNeeded(v[2])
 		end
 		for q,t in pairs(PedComponents) do
